@@ -1,5 +1,7 @@
 import smtplib
 import os
+import requests
+
 
 gmail_pass = os.environ["GMAILPASS"]
 number = os.environ["TEST_NUMBER"]
